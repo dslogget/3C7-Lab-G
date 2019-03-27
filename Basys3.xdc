@@ -125,8 +125,8 @@ set_property IOSTANDARD LVCMOS33 [get_ports {an[3]}]
 set_property PACKAGE_PIN U18 [get_ports {clr}]
 set_property IOSTANDARD LVCMOS33 [get_ports {clr}]
 #Bank = 14, Pin name = ,					Sch name = BTNU
-#set_property PACKAGE_PIN T18 [get_ports {BTN[0]}]
-#set_property IOSTANDARD LVCMOS33 [get_ports {BTN[0]}]
+set_property PACKAGE_PIN T18 [get_ports {up}]
+set_property IOSTANDARD LVCMOS33 [get_ports {up}]
 #Bank = 14, Pin name = ,	Sch name = BTNL
 #set_property PACKAGE_PIN W19 [get_ports {BTN[1]}]
 #set_property IOSTANDARD LVCMOS33 [get_ports {BTN[1]}]
@@ -134,8 +134,8 @@ set_property IOSTANDARD LVCMOS33 [get_ports {clr}]
 #set_property PACKAGE_PIN T17 [get_ports {BTN[2]}]
 #set_property IOSTANDARD LVCMOS33 [get_ports {BTN[2]}]
 #Bank = 14, Pin name = ,					Sch name = BTND
-set_property PACKAGE_PIN U17 [get_ports {go}]
-set_property IOSTANDARD LVCMOS33 [get_ports {go}]
+set_property PACKAGE_PIN U17 [get_ports {down}]
+set_property IOSTANDARD LVCMOS33 [get_ports {down}]
 
 
 ##Pmod Header JA

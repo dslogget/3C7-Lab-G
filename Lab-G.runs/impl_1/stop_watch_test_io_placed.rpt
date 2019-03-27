@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
-| Date                      : Tue Mar 26 20:46:27 2019
+| Date                      : Wed Mar 27 17:20:57 2019
 | Host                      : DESKTOP-NL9J8SI running 64-bit major release  (build 9200)
 | Command                   : report_io -file stop_watch_test_io_placed.rpt
 | Design                    : stop_watch_test
@@ -25,7 +25,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|            15 |
+|            16 |
 +---------------+
 
 
@@ -214,7 +214,7 @@ Table of Contents
 | T2         |             | High Range | IO_L1N_T0_34                 | User IO       |             |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | T3         |             | High Range | IO_L2N_T0_34                 | User IO       |             |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | T17        |             | High Range | IO_L17P_T2_A14_D30_14        | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
-| T18        |             | High Range | IO_L17N_T2_A13_D29_14        | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
+| T18        | up          | High Range | IO_L17N_T2_A13_D29_14        | INPUT         | LVCMOS33    |      14 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | T19        |             |            | GND                          | GND           |             |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |              |                   |              |
 | U1         |             | High Range | IO_L3N_T0_DQS_34             | User IO       |             |      34 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | U2         | an[0]       | High Range | IO_L9N_T1_DQS_34             | OUTPUT        | LVCMOS33    |      34 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |              |                   |              |
@@ -232,7 +232,7 @@ Table of Contents
 | U14        |             | High Range | IO_25_14                     | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | U15        |             | High Range | IO_L23P_T3_A03_D19_14        | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | U16        |             | High Range | IO_L23N_T3_A02_D18_14        | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
-| U17        | go          | High Range | IO_L18P_T2_A12_D28_14        | INPUT         | LVCMOS33    |      14 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
+| U17        | down        | High Range | IO_L18P_T2_A12_D28_14        | INPUT         | LVCMOS33    |      14 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | U18        | clr         | High Range | IO_L18N_T2_A11_D27_14        | INPUT         | LVCMOS33    |      14 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |              |                   |              |
 | U19        |             | High Range | IO_L15P_T2_DQS_RDWR_B_14     | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |              |                   |              |
 | V1         |             | High Range | VCCO_34                      | VCCO          |             |      34 |            |      |                     |                      |    3.30 |            |           |          |      |                  |              |                   |              |

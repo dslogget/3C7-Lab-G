@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1553633046">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1553707054">
   <File Type="PA-TCL" Name="stop_watch_test.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="stop_watch_test_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="stop_watch_test_reports.tcl"/>

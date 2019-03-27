@@ -2,7 +2,7 @@
 module stop_watch_test
    (
     input wire clk,
-    input wire go, clr,
+    input wire up, down, clr, //added up and down
     output wire [3:0] an,
     output wire [7:0] sseg
    );
@@ -18,7 +18,7 @@ module stop_watch_test
 
    // instantiate stopwatch
    stop_watch_if counter_unit
-      (.clk(clk), .go(go), .clr(clr),
+      (.clk(clk), .up(up), .down(down), .clr(clr),
        .d3(d3), .d2(d2), .d1(d1), .d0(d0) );//added d3
        
    //disable the unused display by setting it to 1
